@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Checkpoints and large artifacts
+experiments/checkpoints/
+*.pt
+*.safetensors
+
+# Generated data
+data/Fake_CTI_generated.csv
+
+# OS
+.DS_Store
+Thumbs.db# Ignore data and large artifacts
+data/**
+datasets/**
+outputs/**
+results/**
+docx_extract/**
+experiments/**/outputs/**
+experiments/**/logs/**
